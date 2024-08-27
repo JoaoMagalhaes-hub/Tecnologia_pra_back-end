@@ -6,6 +6,9 @@ import jakarta.persistence.Entity;
 @AllArgsConstructor
 @Data
 @Entity
-public class Aluno {
+public class Aluno implements Serializable {
+
+    @Id
+    private Long id:
 
 }
